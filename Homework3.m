@@ -1,0 +1,16 @@
+Is = 40 * cosd(90) + 40 * i * sind(90);
+R1 = 40;
+R2 = 16;
+C = -i* 10;
+L1 = i * 24;
+L2 = i * 8;
+Vs = Is * R1;
+Z1 = R1 + L1;
+Z2 = R2 + L2;
+Z3 = C + Z;
+Z_ = Z2*Z3/(Z2+Z3);
+V1 = Vs * ((Z_)/(Z1+Z_));
+Zeq = C + ( (Z1*Z2)/(Z1+Z2));
+Z = Zeq
+Vz = V1 * (Z/(Z+Zeq));
+Pz = Vz* Vz / Z
